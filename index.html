@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Packages & Web Development Services | Crypto Raviya</title>
+    <meta name="description"
+        content="Professional website development packages by Crypto Raviya. Explore Starter, Pro and Elite website packages, ongoing website management plans and custom web solutions.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://lh3.googleusercontent.com/d/1p7F0YC1s756Um7lYH85n1uT3QpY9K8-O" type="image/png">
+</head>
+
+<body>
+    <!-- Background Effects -->
+    <div class="cyber-grid"></div>
+    <div class="scanlines"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-brand">
+                <img src="https://lh3.googleusercontent.com/d/1p7F0YC1s756Um7lYH85n1uT3QpY9K8-O"
+                    alt="Crypto Raviya Logo" class="brand-logo">
+                <span class="brand-text">CRYPTO RAVIYA</span>
+            </a>
+
+            
+            <div class="currency-switcher">
+                <button class="currency-btn" data-currency="LKR">LKR</button>
+                <button class="currency-btn active" data-currency="USDT">USDT</button>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#packages" class="nav-link">WEBSITE PACKAGES</a>
+                <a href="#management" class="nav-link">MANAGEMENT</a>
+                <a href="#addons" class="nav-link">ADD-ONS</a>
+                <a href="#process" class="nav-link">PROCESS</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="https://www.cryptoraviya.com/" class="nav-link external-link" target="_blank">PORTFOLIO ↗</a>
+                <a href="#" onclick="openProjectModal(event)" class="build-website-btn btn btn-primary nav-cta">BUILD YOUR WEBSITE</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="terminal-badge">
+                    <span class="prompt">></span> SYSTEM: CRYPTO RAVIYA WEB SERVICES
+                    <br>
+                    <span class="prompt">></span> STATUS: <span class="status-ok">ACCEPTING NEW PROJECTS</span>
+                    <span class="cursor"></span>
+                </div>
+
+                <h1 class="hero-title">BUILD YOUR<br><span class="text-glow">DIGITAL PRESENCE.</span></h1>
+
+                <p class="hero-subtitle">Professional websites designed, developed and deployed by Crypto Raviya.</p>
+
+                <p class="hero-description">From small business websites to advanced digital experiences, choose a
+                    package that fits your goals and build a stronger online presence.</p>
+
+                <div class="hero-actions">
+                    <a href="#packages" class="btn btn-primary btn-large">VIEW PACKAGES</a>
+                    <a href="#" onclick="openProjectModal(event)" class="build-website-btn btn btn-secondary btn-large">BUILD YOUR WEBSITE</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Website Packages Section -->
+        <section class="packages-section" id="packages">
+            
+            <div class="section-header">
+                <h2 class="section-title">WEBSITE PACKAGES</h2>
+                <p class="section-subtitle">Choose the website system that matches your business.</p>
+                </div>
+
+
+            <div class="pricing-grid">
+                <!-- STARTER -->
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <span class="card-badge">SMALL BUSINESS</span>
+                    </div>
+                    <h3 class="card-title">STARTER</h3>
+                    <div class="card-price">
+                        <span class="currency currency-label">USDT</span>
+                        <span class="amount price-val" data-lkr="49,900" data-usdt="160">160</span>
+                        <span class="billing">ONE-TIME</span>
+                    </div>
+                    <p class="card-description">A professional online presence for small businesses and individuals.</p>
+
+                    <ul class="feature-list">
+                        <li>Up to 4 pages</li>
+                        <li>Custom modern website design</li>
+                        <li>Mobile responsive design</li>
+                        <li>Desktop, tablet and mobile optimization</li>
+                        <li class="sub-feature">- Home page</li>
+                        <li class="sub-feature">- About page</li>
+                        <li class="sub-feature">- Services / Products page</li>
+                        <li class="sub-feature">- Contact page</li>
+                        <li>WhatsApp integration</li>
+                        <li>Google Maps integration</li>
+                        <li>Social media links</li>
+                        <li>Contact / inquiry form</li>
+                        <li>Basic on-page SEO structure</li>
+                        <li>Basic performance optimization</li>
+                        <li>SSL setup assistance</li>
+                        <li>Google Search Console setup</li>
+                        <li>Google Analytics setup</li>
+                        <li>Basic deployment</li>
+                        <li>2 revision rounds</li>
+                        <li>Launch support</li>
+                    </ul>
+
+                    <div class="card-delivery">
+                        <span class="icon">⏱</span> Delivery: 5–7 working days
+                    </div>
+
+                    <a href="#" onclick="openProjectModal(event)" class="build-website-btn btn btn-outline btn-full">GET STARTED</a>
+                </div>
+
+                <!-- PRO (Highlighted) -->
+                <div class="pricing-card highlighted">
+                    <div class="card-header">
+                        <span class="card-badge popular-badge">MOST POPULAR</span>
+                        <span class="card-badge">GROWING BUSINESS</span>
+                    </div>
+                    <h3 class="card-title">PRO</h3>
+                    <div class="card-price text-glow-accent">
+                        <span class="currency currency-label">USDT</span>
+                        <span class="amount price-val" data-lkr="89,900" data-usdt="290">290</span>
+                        <span class="billing">ONE-TIME</span>
+                    </div>
+                    <p class="card-description">A complete professional website solution for growing businesses and
+                        companies.</p>
+
+                    <ul class="feature-list">
+                        <li class="highlight-feature">Everything in STARTER</li>
+                        <li>Up to 8 pages</li>
+                        <li>Custom UI/UX layout</li>
+                        <li>Advanced visual design</li>
+                        <li>Services / product showcase</li>
+                        <li>Gallery / portfolio section</li>
+                        <li>Testimonials / reviews section</li>
+                        <li>FAQ section</li>
+                        <li>Advanced contact forms</li>
+                        <li>WhatsApp CTA system</li>
+                        <li>Google Maps & Social integration</li>
+                        <li>Basic technical SEO setup</li>
+                        <li>SEO-friendly page structure</li>
+                        <li>Metadata & Open Graph setup</li>
+                        <li>Performance optimization</li>
+                        <li>Basic accessibility improvements</li>
+                        <li>Search Console & Analytics</li>
+                        <li>Sitemap & Robots.txt setup</li>
+                        <li>Custom 404 page</li>
+                        <li>3 revision rounds</li>
+                        <li>30 days post-launch minor support</li>
+                    </ul>
+
+                    <div class="card-delivery">
+                        <span class="icon">⏱</span> Delivery: 7–14 working days
+                    </div>
+
+                    <a href="#" onclick="openProjectModal(event)" class="build-website-btn btn btn-primary btn-full glow-btn">CHOOSE PRO</a>
+                </div>
+
+                <!-- ELITE -->
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <span class="card-badge">ADVANCED BUSINESS</span>
+                    </div>
+                    <h3 class="card-title">ELITE</h3>
+                    <div class="card-price">
+                        <span class="currency currency-label">USDT</span>
+                        <span class="amount price-val" data-lkr="149,900" data-usdt="480">480</span>
+                        <span class="billing">ONE-TIME</span>
+                    </div>
+                    <p class="card-description">An advanced custom website experience for established businesses and
+                        brands.</p>
+
+                    <ul class="feature-list">
+                        <li class="highlight-feature">Everything in PRO</li>
+                        <li>Up to 12 pages</li>
+                        <li>Fully custom UI/UX</li>
+                        <li>Premium visual direction</li>
+                        <li>Advanced animations</li>
+                        <li>Interactive sections</li>
+                        <li>Advanced service/product presentation</li>
+                        <li>Advanced inquiry forms</li>
+                        <li>Blog / news structure</li>
+                        <li>Dynamic content-ready architecture</li>
+                        <li>Advanced SEO foundations</li>
+                        <li>Technical performance optimization</li>
+                        <li>Advanced analytics setup</li>
+                        <li>Conversion-focused CTA structure</li>
+                        <li>Custom error / utility pages</li>
+                        <li>Third-party integration support</li>
+                        <li>Advanced deployment support</li>
+                        <li>4 revision rounds</li>
+                        <li>60 days post-launch minor support</li>
+                    </ul>
+
+                    <div class="card-delivery">
+                        <span class="icon">⏱</span> Delivery: 10–21 working days
+                    </div>
+
+                    <a href="#" onclick="openProjectModal(event)" class="build-website-btn btn btn-outline btn-full">START ELITE PROJECT</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparison Table Section -->
+        <section class="comparison-section">
+            <div class="section-header">
+                <h2 class="section-title">PACKAGE COMPARISON</h2>
+            </div>
+
+            <div class="table-container">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>STARTER</th>
+                            <th class="highlight-col">PRO</th>
+                            <th>ELITE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pages</td>
+                            <td>4</td>
+                            <td class="highlight-col">8</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td>Custom Design</td>
+                            <td>✓</td>
+                            <td class="highlight-col">✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Responsive Design</td>
+                            <td>✓</td>
+                            <td class="highlight-col">✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>WhatsApp</td>
+                            <td>✓</td>
+                            <td class="highlight-col">✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Google Maps</td>
+                            <td>✓</td>
+                            <td class="highlight-col">✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Contact Form</td>
+                            <td>✓</td>
+                            <td class="highlight-col">✓</td>
+                            <td>Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>Gallery</td>
+                            <td>—</td>
+                            <td class="highlight-col">✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Testimonials</td>
+                            <td>—</td>
+                            <td class="highlight-col">✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>FAQ</td>
+                            <td>—</td>
+                            <td class="highlight-col">✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Basic SEO</td>
+                            <td>✓</td>
+                            <td class="highlight-col">✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Advanced SEO Foundation</td>
+                            <td>—</td>
+                            <td class="highlight-col">✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Analytics</td>
+                            <td>✓</td>
+                            <td class="highlight-col">✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Search Console</td>
+                            <td>✓</td>
+                            <td class="highlight-col">✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Sitemap</td>
+                            <td>—</td>
+                            <td class="highlight-col">✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Performance Optimization</td>
+                            <td>Basic</td>
+                            <td class="highlight-col">Advanced</td>
+                            <td>Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>Custom Animations</td>
+                            <td>Basic</td>
+                            <td class="highlight-col">✓</td>
+                            <td>Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>Blog Structure</td>
+                            <td>—</td>
+                            <td class="highlight-col">—</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Integrations</td>
+                            <td>Basic</td>
+                            <td class="highlight-col">Standard</td>
+                            <td>Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>Revision Rounds</td>
+                            <td>2</td>
+                            <td class="highlight-col">3</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Post-launch Support</td>
+                            <td>—</td>
+                            <td class="highlight-col">30 days</td>
+                            <td>60 days</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Management Plans Section -->
+        <section class="management-section" id="management">
+            <div class="section-header">
+                <h2 class="section-title">WEBSITE MANAGEMENT</h2>
+                <p class="section-subtitle">Keep your website updated, secure and maintained after launch.</p>
+            </div>
+
+            <div class="pricing-grid management-grid">
+                <!-- MONTHLY CARE -->
+                <div class="pricing-card management-card">
+                    <h3 class="card-title">MONTHLY CARE</h3>
+                    <div class="card-price">
+                        <span class="currency currency-label">USDT</span>
+                        <span class="amount price-val" data-lkr="7,500" data-usdt="24">24</span>
+                        <span class="billing">/ month</span>
+                    </div>
+
+                    <ul class="feature-list">
+                        <li>Website health check</li>
+                        <li>Basic security check</li>
+                        <li>Backup verification</li>
+                        <li>Minor text updates</li>
+                        <li>Minor image updates</li>
+                        <li>Contact information updates</li>
+                        <li>Service / price text updates</li>
+                        <li>Broken-link check</li>
+                        <li>Basic performance check</li>
+                        <li>Basic uptime check</li>
+                        <li>Small bug fixes</li>
+                        <li>Up to 3 minor update requests per month</li>
+                        <li>Email / WhatsApp support</li>
+                    </ul>
+
+                    <a href="#" onclick="openProjectModal(event)" class="build-website-btn btn btn-outline btn-full mt-auto">CHOOSE MONTHLY</a>
+                </div>
+
+                <!-- QUARTERLY CARE -->
+                <div class="pricing-card management-card">
+                    <h3 class="card-title">QUARTERLY CARE</h3>
+                    <div class="card-price">
+                        <span class="currency currency-label">USDT</span>
+                        <span class="amount price-val" data-lkr="19,900" data-usdt="64">64</span>
+                        <span class="billing">/ 3 months</span>
+                    </div>
+
+                    <ul class="feature-list">
+                        <li class="highlight-feature">Everything in Monthly Care</li>
+                        <li>Quarterly website review</li>
+                        <li>Performance check</li>
+                        <li>Security check</li>
+                        <li>Backup verification</li>
+                        <li>Broken-link check</li>
+                        <li>Content updates</li>
+                        <li>Image updates</li>
+                        <li>Basic layout adjustments</li>
+                        <li>Up to 10 minor update requests during 3 months</li>
+                        <li>Priority support</li>
+                    </ul>
+
+                    <a href="#" onclick="openProjectModal(event)" class="build-website-btn btn btn-outline btn-full mt-auto">CHOOSE QUARTERLY</a>
+                </div>
+
+                <!-- YEARLY CARE -->
+                <div class="pricing-card management-card highlighted">
+                    <div class="card-header">
+                        <span class="card-badge popular-badge">BEST VALUE</span>
+                    </div>
+                    <h3 class="card-title">YEARLY CARE</h3>
+                    <div class="card-price text-glow-accent">
+                        <span class="currency currency-label">USDT</span>
+                        <span class="amount price-val" data-lkr="69,900" data-usdt="225">225</span>
+                        <span class="billing">/ year</span>
+                    </div>
+
+                    <ul class="feature-list">
+                        <li class="highlight-feature">Everything in Quarterly Care</li>
+                        <li>Year-round website maintenance</li>
+                        <li>Regular backups</li>
+                        <li>Security monitoring</li>
+                        <li>Performance monitoring</li>
+                        <li>Content updates & Image updates</li>
+                        <li>Minor design adjustments</li>
+                        <li>Broken-link monitoring</li>
+                        <li>Basic technical maintenance</li>
+                        <li>Up to 24 minor update requests per year</li>
+                        <li>Priority support</li>
+                        <li>Annual website review</li>
+                        <li>Improvement recommendations</li>
+                        <li>Emergency minor fix support</li>
+                        <li class="highlight-feature-bonus">One complimentary homepage minor UI refresh per year</li>
+                    </ul>
+
+                    <a href="#" onclick="openProjectModal(event)" class="build-website-btn btn btn-primary btn-full glow-btn mt-auto">CHOOSE YEARLY</a>
+                </div>
+            </div>
+
+            <div class="clarification-note terminal-box">
+                <span class="prompt">></span> INFO: Management plans cover minor maintenance and content updates.<br>
+                <span class="prompt">></span> ALERT: New pages, major redesigns, advanced features, e-commerce, custom integrations and major functionality changes are quoted separately.
+            </div>
+        </section>
+
+        <!-- Add-ons Section -->
+        <section class="addons-section" id="addons">
+            <div class="section-header">
+                <h2 class="section-title">EXTEND YOUR SYSTEM</h2>
+                <p class="section-subtitle">Premium add-ons to enhance your website functionality.</p>
+            </div>
+
+            <div class="addons-grid">
+                <div class="addon-card">
+                    <div class="addon-name">Extra Page</div>
+                    <div class="addon-price">From <span class="currency-label">USDT</span> <span class="amount price-val" data-lkr="7,500" data-usdt="24">24</span></div>
+                </div>
+                <div class="addon-card">
+                    <div class="addon-name">Landing Page</div>
+                    <div class="addon-price">From <span class="currency-label">USDT</span> <span class="amount price-val" data-lkr="15,000" data-usdt="48">48</span></div>
+                </div>
+                <div class="addon-card">
+                    <div class="addon-name">Blog Setup</div>
+                    <div class="addon-price">From <span class="currency-label">USDT</span> <span class="amount price-val" data-lkr="15,000" data-usdt="48">48</span></div>
+                </div>
+                <div class="addon-card">
+                    <div class="addon-name">Booking System</div>
+                    <div class="addon-price">From <span class="currency-label">USDT</span> <span class="amount price-val" data-lkr="20,000" data-usdt="65">65</span></div>
+                </div>
+                <div class="addon-card">
+                    <div class="addon-name">Online Payment Integration</div>
+                    <div class="addon-price">From <span class="currency-label">USDT</span> <span class="amount price-val" data-lkr="20,000" data-usdt="65">65</span></div>
+                </div>
+                <div class="addon-card">
+                    <div class="addon-name">E-commerce</div>
+                    <div class="addon-price">From <span class="currency-label">USDT</span> <span class="amount price-val" data-lkr="75,000" data-usdt="242">242</span></div>
+                </div>
+                <div class="addon-card">
+                    <div class="addon-name">Multilingual Website</div>
+                    <div class="addon-price">From <span class="currency-label">USDT</span> <span class="amount price-val" data-lkr="15,000" data-usdt="48">48</span></div>
+                </div>
+                <div class="addon-card">
+                    <div class="addon-name">Advanced SEO</div>
+                    <div class="addon-price">From <span class="currency-label">USDT</span> <span class="amount price-val" data-lkr="25,000" data-usdt="81">81</span></div>
+                </div>
+                <div class="addon-card">
+                    <div class="addon-name">Custom API Integration</div>
+                    <div class="addon-price">From <span class="currency-label">USDT</span> <span class="amount price-val" data-lkr="20,000" data-usdt="65">65</span></div>
+                </div>
+                <div class="addon-card special">
+                    <div class="addon-name">Advanced Web Application</div>
+                    <div class="addon-price">Custom Quote</div>
+                </div>
+            </div>
+            <p class="addons-note">* Prices shown as "From" are starting prices and depend on precise project
+                requirements.</p>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="process-section" id="process">
+            <div class="section-header">
+                <h2 class="section-title">HOW IT WORKS</h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">01</div>
+                    <div class="timeline-content">
+                        <h3>DISCOVER</h3>
+                        <p>Tell us about your business, goals, and target audience.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">02</div>
+                    <div class="timeline-content">
+                        <h3>PLAN</h3>
+                        <p>We define the optimal website structure and technology stack.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">03</div>
+                    <div class="timeline-content">
+                        <h3>BUILD</h3>
+                        <p>Design and development begins within the Cyber OS framework.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">04</div>
+                    <div class="timeline-content">
+                        <h3>REVIEW</h3>
+                        <p>You review the fully working website in a staging environment.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">05</div>
+                    <div class="timeline-content">
+                        <h3>REFINE</h3>
+                        <p>Included revisions are meticulously applied to perfect the build.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">06</div>
+                    <div class="timeline-content">
+                        <h3>LAUNCH</h3>
+                        <p>Your website is deployed and goes live to the world.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">07</div>
+                    <div class="timeline-content">
+                        <h3>MAINTAIN</h3>
+                        <p>Optional ongoing management keeps your system updated and secure.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Crypto Raviya Section -->
+        <section class="why-section">
+            <div class="section-header">
+                <h2 class="section-title">WHY CRYPTO RAVIYA</h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-box">
+                    <h4>Custom Digital Experiences</h4>
+                    <p>No cookie-cutter templates. Unique digital spaces built for your brand.</p>
+                </div>
+                <div class="feature-box">
+                    <h4>Modern UI/UX</h4>
+                    <p>Interfaces designed for the future, prioritizing aesthetics and usability.</p>
+                </div>
+                <div class="feature-box">
+                    <h4>Responsive Development</h4>
+                    <p>Flawless execution across desktop, tablet, and mobile devices.</p>
+                </div>
+                <div class="feature-box">
+                    <h4>Performance-Conscious</h4>
+                    <p>Optimized code and assets for fast loading times and smooth interactions.</p>
+                </div>
+                <div class="feature-box">
+                    <h4>Direct Communication</h4>
+                    <p>Speak directly with the developer building your system. No middle-men.</p>
+                </div>
+                <div class="feature-box">
+                    <h4>Flexible Packages</h4>
+                    <p>Clear pricing tiers that scale with your business requirements.</p>
+                </div>
+                <div class="feature-box">
+                    <h4>Post-Launch Support</h4>
+                    <p>Dedicated support periods included with Pro and Elite systems.</p>
+                </div>
+                <div class="feature-box">
+                    <h4>Optional Management</h4>
+                    <p>Reliable ongoing care plans to keep your investment secure.</p>
+                </div>
+            </div>
+
+            <div class="center-cta mt-4">
+                <a href="https://www.cryptoraviya.com/" class="btn btn-outline" target="_blank">VIEW FULL PORTFOLIO
+                    ↗</a>
+            </div>
+        </section>
+
+        <!-- Portfolio Preview Section -->
+        <section class="portfolio-preview-section">
+            <div class="glass-banner">
+                <h2 class="banner-title">BUILT BY CRYPTO RAVIYA</h2>
+                <p class="banner-text">Explore selected projects, technical skills and the Crypto Raviya digital
+                    ecosystem.</p>
+                <a href="https://www.cryptoraviya.com/" class="btn btn-primary" target="_blank">VIEW PORTFOLIO ↗</a>
+            </div>
+        </section>
+
+        <!-- Information / Terms Section -->
+        <section class="info-grid-section">
+            <div class="info-box">
+                <h3>PAYMENT TERMS</h3>
+                <div class="terminal-text">
+                    <strong>For standard projects:</strong>
+                    <br>- 50% advance payment before development begins.
+                    <br>- 50% final payment before final handover or launch.
+                    <br><br>
+                    <strong>For larger custom projects (Above 100k):</strong>
+                    <br>- 40% advance
+                    <br>- 30% development milestone
+                    <br>- 30% final payment
+                    <br><br>
+                    <span class="muted">Agreed payment milestones will be confirmed in the project quotation.</span>
+                </div>
+            </div>
+
+            <div class="info-box border-warning">
+                <h3>IMPORTANT PROJECT RULES</h3>
+                <ul class="rules-list">
+                    <li>Package scope is strictly defined by the selected package.</li>
+                    <li>Revision rounds are limited by package tier.</li>
+                    <li>Major changes are quoted separately.</li>
+                    <li>Domain and hosting are separate unless explicitly included.</li>
+                    <li>Third-party tools and service fees are separate unless stated otherwise.</li>
+                    <li>Client must provide accurate business information and required assets.</li>
+                    <li>Delays in content or feedback may affect delivery time.</li>
+                    <li>Maintenance plans do not include complete redesigns or new systems.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section" id="faq">
+            <div class="section-header">
+                <h2 class="section-title">FAQ</h2>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">What is included in a website package?</button>
+                    <div class="accordion-content">
+                        <p>Each package includes design, development, basic SEO, responsive optimization, and
+                            deployment. The exact pages, features, and support levels vary based on whether you choose
+                            Starter, Pro, or Elite. Please refer to the packages section for detailed inclusions.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Is domain and hosting included?</button>
+                    <div class="accordion-content">
+                        <p>Domain, hosting and third-party services are separate unless explicitly included in your
+                            project quotation. We separate these costs to ensure transparency regarding annual renewal
+                            fees.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Do you use templates?</button>
+                    <div class="accordion-content">
+                        <p>We can use suitable development tools and frameworks where appropriate, but each project is
+                            customized to the client's business requirements and visual identity. We don't use generic
+                            drag-and-drop templates; we build tailored digital experiences.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Can I request changes after launch?</button>
+                    <div class="accordion-content">
+                        <p>Yes. Minor updates are available through our management plans. Major changes, complete
+                            redesigns, and new features are quoted separately as additional work.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Do you build online stores?</button>
+                    <div class="accordion-content">
+                        <p>Yes. E-commerce projects are available as custom/add-on projects and are quoted based on
+                            specific requirements, scale, and payment gateway needs.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Can you add booking or payment systems?</button>
+                    <div class="accordion-content">
+                        <p>Yes, these are available as add-ons. We can integrate online booking systems, appointment
+                            scheduling, and payment gateways (like PayHere, Stripe, etc.) into your website.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">How long does a website take?</button>
+                    <div class="accordion-content">
+                        <p>Typical delivery ranges from approximately 5–21 working days depending on the package,
+                            project scope, and how quickly you can provide necessary content and feedback.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">How do payments work?</button>
+                    <div class="accordion-content">
+                        <p>A project deposit (usually 50% for standard projects) is required before development begins.
+                            The remaining balance is due before final handover or launch, according to the agreed
+                            project terms.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">What happens if I need a feature that is not listed?</button>
+                    <div class="accordion-content">
+                        <p>If you have specific requirements not covered in the standard packages, we can provide a
+                            custom quotation. We handle advanced web applications and custom API integrations regularly.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Can Crypto Raviya manage my website after launch?</button>
+                    <div class="accordion-content">
+                        <p>Absolutely. We offer Monthly, Quarterly, and Yearly Care plans to keep your website updated,
+                            secure, backed up, and functioning optimally long after launch.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section" id="contact">
+            <div class="cta-container">
+                <h2 class="cta-title">READY TO BUILD?</h2>
+                <p class="cta-text">Tell us about your business, your goals and the website you need.</p>
+
+                <div class="cta-buttons">
+                    <!-- Placeholders for actual contact links -->
+                    <a href="#" onclick="openProjectModal(event)" class="btn btn-primary btn-large glow-btn">BUILD YOUR WEBSITE</a>
+                    <a href="https://www.cryptoraviya.com/" class="btn btn-outline btn-large" target="_blank">VIEW
+                        PORTFOLIO ↗</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="https://lh3.googleusercontent.com/d/1p7F0YC1s756Um7lYH85n1uT3QpY9K8-O" alt="Crypto Raviya"
+                    class="footer-logo">
+                <div class="footer-brand-text">CRYPTO RAVIYA</div>
+                <div class="footer-tagline">DIGITAL PRODUCTS • WEB DEVELOPMENT • UI/UX</div>
+            </div>
+
+            <div class="footer-links" style="display:flex; flex-wrap:wrap; gap:1rem;">
+                <a href="https://www.cryptoraviya.com/" class="footer-btn" target="_blank">Portfolio</a>
+                <a href="#packages" class="footer-btn">Packages</a>
+                <a href="#management" class="footer-btn">Management</a>
+                <a href="#" onclick="openProjectModal(event)" class="footer-btn">Build Your Website</a>
+                <a href="#" onclick="openContactModal(event)" class="footer-btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="copyright">© 2026 Crypto Raviya</div>
+            <div class="system-status">
+                <span class="status-dot"></span> All systems operational.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal-overlay">
+        <div class="modal-container project-modal">
+            <button class="modal-close" onclick="closeModals()">&times;</button>
+            <div class="modal-header">
+                <h2>LET'S BUILD YOUR WEBSITE</h2>
+                <p>Tell us about your project and choose how you'd like to get started.</p>
+            </div>
+            <div class="modal-content two-col">
+                <div class="modal-col form-col">
+                    <h3>PROJECT FORM</h3>
+                    <p style="margin-bottom: 1.5rem; color: var(--text-muted); font-size: 0.9rem;">SECURE PROJECT INQUIRY FORM</p>
+                    <button class="btn btn-primary btn-full glow-btn" onclick="openGoogleForm()">OPEN PROJECT FORM</button>
+                </div>
+                <div class="modal-col">
+                    <h3>DIRECT CONTACT</h3>
+                    <div class="contact-actions">
+                        <button class="modal-btn-large" onclick="openGmail()">
+                            <span class="icon">✉️</span>
+                            <div class="btn-text">
+                                <strong>EMAIL</strong>
+                                <span>Start your project via email</span>
+                            </div>
+                        </button>
+                        <button class="modal-btn-large" onclick="openWhatsApp()">
+                            <span class="icon">💬</span>
+                            <div class="btn-text">
+                                <strong>WHATSAPP</strong>
+                                <span>Chat directly on WhatsApp</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Contact Modal -->
+    <div id="contactModal" class="modal-overlay">
+        <div class="modal-container contact-modal">
+            <button class="modal-close" onclick="closeModals()">&times;</button>
+            <div class="modal-header">
+                <h2>CONTACT CRYPTO RAVIYA</h2>
+                <p>Let's connect.</p>
+            </div>
+            <div class="modal-content two-col">
+                <div class="modal-col contact-card">
+                    <div class="icon-large">✉️</div>
+                    <h3>EMAIL</h3>
+                    <div class="contact-value">thecryptomarket0@gmail.com</div>
+                    <div class="contact-card-actions">
+                        <button class="btn btn-primary btn-full glow-btn" onclick="openGmail()">SEND EMAIL</button>
+                        <button class="btn btn-outline btn-full" onclick="copyText('thecryptomarket0@gmail.com', this)">COPY EMAIL</button>
+                    </div>
+                </div>
+                <div class="modal-col contact-card">
+                    <div class="icon-large">💬</div>
+                    <h3>WHATSAPP</h3>
+                    <div class="contact-value">+94 74 069 3312</div>
+                    <div class="contact-card-actions">
+                        <button class="btn btn-primary btn-full glow-btn" onclick="openWhatsApp()">OPEN WHATSAPP</button>
+                        <button class="btn btn-outline btn-full" onclick="copyText('+94740693312', this)">COPY NUMBER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
